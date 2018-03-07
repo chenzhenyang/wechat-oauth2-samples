@@ -1,3 +1,9 @@
 security:
   basic:
     enabled: false
+security.oauth2.client.client-id: wx991c7d7bfbf20138
+security.oauth2.client.client-secret: 01e7bc3aef58e201778c454e6df44405
+security.oauth2.resource.user-info-uri: https://api.weixin.qq.com/sns/userinfo
+security.oauth2.client.user-authorization-uri: https://open.weixin.qq.com/connect/oauth2/authorize
+security.oauth2.client.access-token-uri: https://api.weixin.qq.com/sns/oauth2/access_token
+security.oauth2.client.scope: snsapi_userinfo    
