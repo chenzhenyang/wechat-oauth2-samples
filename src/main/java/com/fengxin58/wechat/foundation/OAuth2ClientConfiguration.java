@@ -10,7 +10,7 @@ import org.springframework.security.oauth2.client.OAuth2ClientContext;
 
 @Configuration
 //@EnableOAuth2Client
-public class AppConfiguration {
+public class OAuth2ClientConfiguration {
 	
 	@Primary
 	@Bean

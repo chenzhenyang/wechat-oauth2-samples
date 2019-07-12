@@ -23,7 +23,7 @@ public class UserController {
 	}
 	
 	@ResponseBody
-	@RequestMapping("/weixin/authorize")
+	@RequestMapping("/wechat/userinfo")
 	public Object getUserInfo(HttpServletRequest request) {
 		String url = "https://api.weixin.qq.com/sns/userinfo?lang=zh_CN&openid=$openid$";
 		ResponseEntity<Object> result = restTemplate.getForEntity(url, Object.class);

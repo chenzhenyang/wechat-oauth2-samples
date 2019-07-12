@@ -10,7 +10,7 @@ import org.springframework.security.oauth2.client.token.grant.code.Authorization
 import org.springframework.security.oauth2.common.AuthenticationScheme;
 
 @Configuration
-public class OAuth2Configuration {
+public class OAuth2RestTemplateConfiguration {
 	
 	@Bean
 	public OAuth2RestTemplate restTemplate(OAuth2ClientContext context){
